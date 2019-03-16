@@ -25,7 +25,7 @@ const routes: Routes = [
 
   {path: 'contact/contact-list/add', component: ContactDetailsComponent, data: {title: 'Add Contact'}},
   { path: 'contact/contact-list/edit/:id', component: ContactDetailsComponent, data: { title: 'Edit Contact' } },
-  { path: 'contact/contact-list/delete/:id', component: ContactDeleteComponent, data: { title: 'Add Contact' } },
+  { path: 'contact/contact-list/delete/:id', component: ContactDeleteComponent, data: { title: 'Delete Contact' } },
 
   { path: 'register', component: RegisterComponent, data: { title: 'Register' } },
   { path: 'login', component: LoginComponent, data: { title: 'Login' } },

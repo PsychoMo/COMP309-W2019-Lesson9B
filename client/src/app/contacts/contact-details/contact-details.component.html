@@ -28,14 +28,15 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="AgeTextField">Age</label>
-                    <input type="text" class="form-control"
-                    id="AgeTextField"
-                    placeholder="Enter Age"
-                    [(ngModel)]="contact.age"
-                    value="{{ contact.age }}"
-                    required>
-                </div>
+                  <label for="AgeTextField">Age</label>
+                  <input type="text" class="form-control"
+                  id="AgeTextField"
+                  placeholder="Enter Age"
+                  name="age"
+                  [(ngModel)]="contact.age"
+                  value="{{ contact.age }}"
+                  required>
+              </div>
 
                 <button type="submit" class="btn btn-primary">
                 <i class="fas fa-edit"></i> {{ title }}</button>
